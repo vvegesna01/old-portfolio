@@ -1,0 +1,22 @@
+Images index:
+1. profile with clear background
+2. logo.png
+
+Section Tasks
+
+- General
+	- nav bar at the top instead of hamburger menu
+	- social list top right instead of at footer
+	- download resume button
+- About Me
+	- add about blurb
+	- style blurb
+- Technical Skills
+	- ideate for how to display
+		- spinny ball
+		- progress bars (?)
+		- might need react
+- Experience
+	- figure out how to diplay a timeline
+
+- Contact form
