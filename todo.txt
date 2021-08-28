@@ -1,6 +1,7 @@
 Images index:
 1. profile with clear background
 2. logo.png
+3. figure out custom domain
 
 Section Tasks
 
