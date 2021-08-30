@@ -589,16 +589,28 @@ h3 {
     background: #000;
 }
 
-.ch-img-1 {
-    background-image: url(/img/logo.png);
+.ch-img-180 {
+    background-image: url(/img/courses/cs180.png);
 }
 
-.ch-img-2 {
-    background-image: url(/img/logo_type.png);
+.ch-img-240 {
+    background-image: url(/img/courses/cs240.png);
 }
 
-.ch-img-3 {
-    background-image: url(/img/logo_minimal.png);
+.ch-img-350 {
+    background-image: url(/img/courses/stat350.png);
+}
+
+.ch-img-251 {
+    background-image: url(/img/courses/cs251.png);
+}
+
+.ch-img-182 {
+    background-image: url(/img/courses/cs182.png);
+}
+
+.ch-img-177 {
+    background-image: url(/img/courses/cs177.png);
 }
 
 .ch-info h3 {
