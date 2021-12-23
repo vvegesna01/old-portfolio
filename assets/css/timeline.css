@@ -10,14 +10,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .timeline {
-    width: 80%;
+    width: 100%;
     height: auto;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
 }
 
@@ -26,10 +26,10 @@
 }
 
 .timeline ul li {
-    padding: 20px;
+    padding: 10px;
     background-color: #a2dafa;
     color: black;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-bottom: 20px;
 }
 
@@ -51,7 +51,6 @@
         content: "";
         position: absolute;
         top: 0;
-        left: 50%;
         transform: translateX(-50%);
         width: 2px;
         height: 100%;
@@ -62,7 +61,7 @@
         position: relative;
         margin-bottom: 50px;
     }
-    .timeline ul li:nth-child(odd) {
+    /* .timeline ul li:nth-child(odd) {
         float: left;
         clear: right;
         transform: translateX(-274px);
@@ -73,7 +72,7 @@
         clear: left;
         transform: translateX(255px);
         border-radius: 0px 20px 20px 20px;
-    }
+    } */
     .timeline ul li::before {
         content: "";
         position: absolute;
@@ -82,15 +81,17 @@
         border-radius: 50%;
         background-color: gray;
         top: 0px;
+        transform: translate(50%, -50%);
+        left: -40px;
     }
-    .timeline ul li:nth-child(odd)::before {
+    /* .timeline ul li:nth-child(odd)::before {
         transform: translate(50%, -50%);
         right: -30px;
     }
     .timeline ul li:nth-child(even)::before {
         transform: translate(-50%, -50%);
         left: -30px;
-    }
+    } */
     .timeline ul li:hover:before {
         background-color: #1d58d6;
     }
