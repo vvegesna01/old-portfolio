@@ -3109,6 +3109,29 @@ body.is-menu-visible #menu .close {
 }
 
 
+.img-box{
+    float: right;
+    width: 45%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+
+
+}
+
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    /* transition: bottom 1s, left 1s; */
+
+
+}
+
+
 /* The navigation bar */
 
 .topnav {
@@ -3116,35 +3139,45 @@ body.is-menu-visible #menu .close {
     background-color: white;
     border-bottom: 0;
     overflow: hidden;
-    margin-bottom: 5%;
+    margin-bottom: 9%;
     margin-top: 2%;
     text-transform: lowercase;
-    white-space: nowrap;
-    
-    
 
   }
 
   .topnav a {
     font: inherit;
-    float: center;
     color: black;
     overflow: hidden;
     text-align: left;
-    padding: 3% 1%;
+    padding: 3% 2%;
     text-decoration: none;
     font-size: 17px;
     padding-bottom: 20em;
-    
+
+
   }
+
 .topnav a:hover {
-    background-color: #ddd;
+    overflow:hidden;
+    background-color: white;
     color: black;
     float: center;
+    
+    
   }
-  
+
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(39, 104, 244);
+    background-color: #8eb7f5;
     color: white;
+    overflow: hidden;
   }
+
+
+
+.intro-para {
+    overflow: visible;
+    display: flex;
+
+}
