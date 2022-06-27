@@ -2298,7 +2298,7 @@ input[type="reset"].fit,
 input[type="button"].fit,
 button.fit,
 .button.fit {
-    width: 100%;
+    width: 20%;
 }
 
 input[type="submit"]:hover,
@@ -3112,7 +3112,7 @@ body.is-menu-visible #menu .close {
 .img-box{
     float: right;
     width: 45%;
-    height: 90%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 60%;
