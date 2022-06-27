@@ -3123,12 +3123,18 @@ body.is-menu-visible #menu .close {
 .img-box img{
     height: 100%;
     position: absolute;
-    left: 50%;
+    left: 47%;
     bottom: 0;
     transform: translateX(-50%);
-    /* transition: bottom 1s, left 1s; */
+    transition: bottom 1s, left 1s;
 
+}
 
+.img-box:hover .back-img{
+    bottom: 40px;
+}
+.img-box:hover .man-img{
+    left: 54%;
 }
 
 
