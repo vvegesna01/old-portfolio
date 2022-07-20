@@ -2,4 +2,4 @@
 Personal Website
 
 
-HTML Template from: https://html5up.net/
+HTML Skeleton Template from: https://html5up.net/phantom
