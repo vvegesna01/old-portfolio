@@ -1739,16 +1739,20 @@ ul.actions {
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
-    display: flex;
-    cursor: default;
+    display: block;
+    cursor: none;
     list-style: none;
     margin-left: -1em;
-    padding-left: 0;
+    margin-top: 40%;
+    padding-left: 10em;
+
 }
 
 ul.actions li {
     padding: 0 0 0 1em;
     vertical-align: middle;
+    margin-top: 40%;
+
 }
 
 ul.actions.special {
@@ -1761,7 +1765,7 @@ ul.actions.special {
 }
 
 ul.actions.special li:first-child {
-    padding-left: 0;
+    padding-left: 10%;
 }
 
 ul.actions.stacked {
@@ -3117,24 +3121,24 @@ body.is-menu-visible #menu .close {
     top: 0;
     left: 65%;
 
-
 }
 
 .img-box img{
     height: 95%;
     position: absolute;
-    left: 27%;
+    left: -20%;
+    top: -20%;
     bottom: 0;
-    transform: translateX(-50%);
+    transform: translateX(-7%);
     transition: bottom 1s, left 1s;
 
 }
 
 .img-box:hover .back-img{
-    bottom: 2em;
+    bottom: 3em;
 }
 .img-box:hover .man-img{
-    left: 50%;
+    left: -50%;
 }
 
 
@@ -3145,7 +3149,7 @@ body.is-menu-visible #menu .close {
     background-color: white;
     border-bottom: 0;
     overflow: hidden;
-    margin-bottom: 9%;
+    margin-bottom: 4%;
     margin-top: 2%;
     text-transform: lowercase;
 
